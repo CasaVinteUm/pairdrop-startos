@@ -4,7 +4,7 @@ id: pairdrop
 title: "PairDrop"
 version: 1.0.0.1
 release-notes: "Revamped for EmbassyOS 0.3.3"
-license: gpl-3.0
+license: MIT
 wrapper-repo: "https://github.com/CasaVinteUm/pairdrop-startos"
 upstream-repo: "https://github.com/schlagmichdoch/pairdrop"
 support-site: "https://github.com/schlagmichdoch/pairdrop"
