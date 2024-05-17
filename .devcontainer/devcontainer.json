@@ -2,21 +2,11 @@
   "name": "Start9 App Builder",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-<<<<<<< Updated upstream
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "ghcr.io/devcontainers/features/python:1": {},
     "ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {
       "packages": "build-essential,openssl,libssl-dev,libc6-dev,clang,libclang-dev,ca-certificates,curl,cargo"
     }
-=======
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
-      "installDockerBuildx": false 
-    },
-    "ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {
-      "packages": "build-essential,openssl,libssl-dev,libc6-dev,clang,libclang-dev,ca-certificates,curl,cargo"
-    },
-    "ghcr.io/devcontainers/features/python:1": {}
->>>>>>> Stashed changes
   },
 
   // Configure tool-specific properties.
