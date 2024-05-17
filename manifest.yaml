@@ -21,8 +21,8 @@ assets:
 main:
   type: docker
   image: main
-  entrypoint: "docker_entrypoint.sh"
-  args: []
+  entrypoint: npm
+  args: ["run", "start:prod"]
   mounts:
     main: /root
 health-checks: {}
