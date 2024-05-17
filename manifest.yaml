@@ -34,7 +34,7 @@ volumes:
 interfaces:
   main:
     name: User Interface
-    description: Main entrypoint for the service
+    description: PairDrop User Interface
     tor-config:
       port-mapping:
         80: "3000"
